@@ -1,0 +1,33 @@
+C:\work\ehd 20201001\Einvoince.Domain\bin\Release\Einvoince.Domain.dll
+C:\work\ehd 20201001\Einvoince.Domain\bin\Release\Einvoince.Domain.pdb
+C:\work\ehd 20201001\Einvoince.Domain\obj\Release\Einvoince.Domain.csprojResolveAssemblyReference.cache
+C:\work\ehd 20201001\Einvoince.Domain\obj\Release\Einvoince.Domain.dll
+C:\work\ehd 20201001\Einvoince.Domain\obj\Release\Einvoince.Domain.pdb
+C:\work\EHDv221\Einvoince.Domain\bin\Release\Einvoince.Domain.dll
+C:\work\EHDv221\Einvoince.Domain\bin\Release\Einvoince.Domain.pdb
+C:\work\EHDv221\Einvoince.Domain\bin\Release\Newtonsoft.Json.dll
+C:\work\EHDv221\Einvoince.Domain\bin\Release\Newtonsoft.Json.xml
+C:\work\EHDv221\Einvoince.Domain\obj\Release\Einvoince.Domain.csprojResolveAssemblyReference.cache
+C:\work\EHDv221\Einvoince.Domain\obj\Release\Einvoince.Domain.dll
+C:\work\EHDv221\Einvoince.Domain\obj\Release\Einvoince.Domain.pdb
+D:\project\EHDv232\Einvoince.Domain\bin\Release\Einvoince.Domain.dll
+D:\project\EHDv232\Einvoince.Domain\bin\Release\Einvoince.Domain.pdb
+D:\project\EHDv232\Einvoince.Domain\bin\Release\Newtonsoft.Json.dll
+D:\project\EHDv232\Einvoince.Domain\bin\Release\Newtonsoft.Json.xml
+D:\project\EHDv232\Einvoince.Domain\obj\Release\Einvoince.Domain.csprojResolveAssemblyReference.cache
+D:\project\EHDv232\Einvoince.Domain\obj\Release\Einvoince.Domain.dll
+D:\project\EHDv232\Einvoince.Domain\obj\Release\Einvoince.Domain.pdb
+D:\project\EHDv233\Einvoince.Domain\bin\Release\Einvoince.Domain.dll
+D:\project\EHDv233\Einvoince.Domain\bin\Release\Einvoince.Domain.pdb
+D:\project\EHDv233\Einvoince.Domain\bin\Release\Newtonsoft.Json.dll
+D:\project\EHDv233\Einvoince.Domain\bin\Release\Newtonsoft.Json.xml
+D:\project\EHDv233\Einvoince.Domain\obj\Release\Einvoince.Domain.csprojResolveAssemblyReference.cache
+D:\project\EHDv233\Einvoince.Domain\obj\Release\Einvoince.Domain.dll
+D:\project\EHDv233\Einvoince.Domain\obj\Release\Einvoince.Domain.pdb
+D:\EHDv233\Einvoince.Domain\bin\Release\Einvoince.Domain.dll
+D:\EHDv233\Einvoince.Domain\bin\Release\Einvoince.Domain.pdb
+D:\EHDv233\Einvoince.Domain\bin\Release\Newtonsoft.Json.dll
+D:\EHDv233\Einvoince.Domain\bin\Release\Newtonsoft.Json.xml
+D:\EHDv233\Einvoince.Domain\obj\Release\Einvoince.Domain.csprojResolveAssemblyReference.cache
+D:\EHDv233\Einvoince.Domain\obj\Release\Einvoince.Domain.dll
+D:\EHDv233\Einvoince.Domain\obj\Release\Einvoince.Domain.pdb

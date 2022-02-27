@@ -1,0 +1,451 @@
+C:\work\ehd 20201001\Einvoince.Service\obj\Debug\Einvoince.Service.csprojResolveAssemblyReference.cache
+C:\work\ehd 20201001\Einvoince.Service\bin\Debug\Einvoince.Service.dll.config
+C:\work\ehd 20201001\Einvoince.Service\bin\Debug\Einvoince.Service.dll
+C:\work\ehd 20201001\Einvoince.Service\bin\Debug\Einvoince.Service.pdb
+C:\work\ehd 20201001\Einvoince.Service\bin\Debug\Einvoince.DAL.dll
+C:\work\ehd 20201001\Einvoince.Service\bin\Debug\Einvoince.Domain.dll
+C:\work\ehd 20201001\Einvoince.Service\bin\Debug\Einvoince.ENT.dll
+C:\work\ehd 20201001\Einvoince.Service\bin\Debug\EntityFramework.dll
+C:\work\ehd 20201001\Einvoince.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\work\ehd 20201001\Einvoince.Service\bin\Debug\Library.dll
+C:\work\ehd 20201001\Einvoince.Service\bin\Debug\Library.Encryption.dll
+C:\work\ehd 20201001\Einvoince.Service\bin\Debug\Library.Utils.dll
+C:\work\ehd 20201001\Einvoince.Service\bin\Debug\log4net.dll
+C:\work\ehd 20201001\Einvoince.Service\bin\Debug\Newtonsoft.Json.dll
+C:\work\ehd 20201001\Einvoince.Service\bin\Debug\Einvoince.DAL.pdb
+C:\work\ehd 20201001\Einvoince.Service\bin\Debug\Einvoince.Domain.pdb
+C:\work\ehd 20201001\Einvoince.Service\bin\Debug\Einvoince.ENT.pdb
+C:\work\ehd 20201001\Einvoince.Service\bin\Debug\Library.pdb
+C:\work\ehd 20201001\Einvoince.Service\bin\Debug\EntityFramework.xml
+C:\work\ehd 20201001\Einvoince.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\work\ehd 20201001\Einvoince.Service\bin\Debug\log4net.xml
+C:\work\ehd 20201001\Einvoince.Service\bin\Debug\Newtonsoft.Json.xml
+C:\work\ehd 20201001\Einvoince.Service\obj\Debug\Einvoince.Service.dll
+C:\work\ehd 20201001\Einvoince.Service\obj\Debug\Einvoince.Service.pdb
+D:\EHD\Einvoince.Service\bin\Debug\Einvoince.Service.dll.config
+D:\EHD\Einvoince.Service\bin\Debug\Einvoince.Service.dll
+D:\EHD\Einvoince.Service\bin\Debug\Einvoince.Service.pdb
+D:\EHD\Einvoince.Service\bin\Debug\AutoMapper.dll
+D:\EHD\Einvoince.Service\bin\Debug\Einvoince.DAL.dll
+D:\EHD\Einvoince.Service\bin\Debug\Einvoince.Domain.dll
+D:\EHD\Einvoince.Service\bin\Debug\Einvoince.ENT.dll
+D:\EHD\Einvoince.Service\bin\Debug\EntityFramework.dll
+D:\EHD\Einvoince.Service\bin\Debug\EntityFramework.SqlServer.dll
+D:\EHD\Einvoince.Service\bin\Debug\Library.dll
+D:\EHD\Einvoince.Service\bin\Debug\Library.Encryption.dll
+D:\EHD\Einvoince.Service\bin\Debug\Library.Utils.dll
+D:\EHD\Einvoince.Service\bin\Debug\log4net.dll
+D:\EHD\Einvoince.Service\bin\Debug\Newtonsoft.Json.dll
+D:\EHD\Einvoince.Service\bin\Debug\System.ValueTuple.dll
+D:\EHD\Einvoince.Service\bin\Debug\Einvoince.DAL.pdb
+D:\EHD\Einvoince.Service\bin\Debug\Einvoince.Domain.pdb
+D:\EHD\Einvoince.Service\bin\Debug\Einvoince.ENT.pdb
+D:\EHD\Einvoince.Service\bin\Debug\Library.pdb
+D:\EHD\Einvoince.Service\bin\Debug\AutoMapper.pdb
+D:\EHD\Einvoince.Service\bin\Debug\AutoMapper.xml
+D:\EHD\Einvoince.Service\bin\Debug\EntityFramework.xml
+D:\EHD\Einvoince.Service\bin\Debug\EntityFramework.SqlServer.xml
+D:\EHD\Einvoince.Service\bin\Debug\log4net.xml
+D:\EHD\Einvoince.Service\bin\Debug\Newtonsoft.Json.xml
+D:\EHD\Einvoince.Service\bin\Debug\System.ValueTuple.xml
+D:\EHD\Einvoince.Service\obj\Debug\Einvoince.Service.csprojResolveAssemblyReference.cache
+D:\EHD\Einvoince.Service\obj\Debug\Einvoince.Service.dll
+D:\EHD\Einvoince.Service\obj\Debug\Einvoince.Service.pdb
+C:\work\20210101\Einvoince.Service\obj\Debug\Einvoince.Service.csprojResolveAssemblyReference.cache
+C:\work\20210101\Einvoince.Service\obj\Debug\Einvoince.Service.dll
+C:\work\20210101\Einvoince.Service\obj\Debug\Einvoince.Service.pdb
+C:\work\20210101\Einvoince.Service\bin\Debug\Einvoince.Service.dll.config
+C:\work\20210101\Einvoince.Service\bin\Debug\Einvoince.Service.dll
+C:\work\20210101\Einvoince.Service\bin\Debug\Einvoince.Service.pdb
+C:\work\20210101\Einvoince.Service\bin\Debug\AutoMapper.dll
+C:\work\20210101\Einvoince.Service\bin\Debug\Einvoince.DAL.dll
+C:\work\20210101\Einvoince.Service\bin\Debug\Einvoince.Domain.dll
+C:\work\20210101\Einvoince.Service\bin\Debug\Einvoince.ENT.dll
+C:\work\20210101\Einvoince.Service\bin\Debug\EntityFramework.dll
+C:\work\20210101\Einvoince.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\work\20210101\Einvoince.Service\bin\Debug\Library.dll
+C:\work\20210101\Einvoince.Service\bin\Debug\Library.Encryption.dll
+C:\work\20210101\Einvoince.Service\bin\Debug\Library.Utils.dll
+C:\work\20210101\Einvoince.Service\bin\Debug\log4net.dll
+C:\work\20210101\Einvoince.Service\bin\Debug\Newtonsoft.Json.dll
+C:\work\20210101\Einvoince.Service\bin\Debug\System.ValueTuple.dll
+C:\work\20210101\Einvoince.Service\bin\Debug\Einvoince.DAL.pdb
+C:\work\20210101\Einvoince.Service\bin\Debug\Einvoince.Domain.pdb
+C:\work\20210101\Einvoince.Service\bin\Debug\Einvoince.ENT.pdb
+C:\work\20210101\Einvoince.Service\bin\Debug\Library.pdb
+C:\work\20210101\Einvoince.Service\bin\Debug\AutoMapper.pdb
+C:\work\20210101\Einvoince.Service\bin\Debug\AutoMapper.xml
+C:\work\20210101\Einvoince.Service\bin\Debug\EntityFramework.xml
+C:\work\20210101\Einvoince.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\work\20210101\Einvoince.Service\bin\Debug\log4net.xml
+C:\work\20210101\Einvoince.Service\bin\Debug\Newtonsoft.Json.xml
+C:\work\20210101\Einvoince.Service\bin\Debug\System.ValueTuple.xml
+D:\Ehd New\Einvoince.Service\bin\Debug\Einvoince.Service.dll.config
+D:\Ehd New\Einvoince.Service\bin\Debug\Einvoince.Service.dll
+D:\Ehd New\Einvoince.Service\bin\Debug\Einvoince.Service.pdb
+D:\Ehd New\Einvoince.Service\bin\Debug\AutoMapper.dll
+D:\Ehd New\Einvoince.Service\bin\Debug\Einvoince.DAL.dll
+D:\Ehd New\Einvoince.Service\bin\Debug\Einvoince.Domain.dll
+D:\Ehd New\Einvoince.Service\bin\Debug\Einvoince.ENT.dll
+D:\Ehd New\Einvoince.Service\bin\Debug\EntityFramework.dll
+D:\Ehd New\Einvoince.Service\bin\Debug\EntityFramework.SqlServer.dll
+D:\Ehd New\Einvoince.Service\bin\Debug\Library.dll
+D:\Ehd New\Einvoince.Service\bin\Debug\Library.Encryption.dll
+D:\Ehd New\Einvoince.Service\bin\Debug\Library.Utils.dll
+D:\Ehd New\Einvoince.Service\bin\Debug\log4net.dll
+D:\Ehd New\Einvoince.Service\bin\Debug\Newtonsoft.Json.dll
+D:\Ehd New\Einvoince.Service\bin\Debug\System.ValueTuple.dll
+D:\Ehd New\Einvoince.Service\bin\Debug\Einvoince.DAL.pdb
+D:\Ehd New\Einvoince.Service\bin\Debug\Einvoince.Domain.pdb
+D:\Ehd New\Einvoince.Service\bin\Debug\Einvoince.ENT.pdb
+D:\Ehd New\Einvoince.Service\bin\Debug\Library.pdb
+D:\Ehd New\Einvoince.Service\bin\Debug\AutoMapper.pdb
+D:\Ehd New\Einvoince.Service\bin\Debug\AutoMapper.xml
+D:\Ehd New\Einvoince.Service\bin\Debug\EntityFramework.xml
+D:\Ehd New\Einvoince.Service\bin\Debug\EntityFramework.SqlServer.xml
+D:\Ehd New\Einvoince.Service\bin\Debug\log4net.xml
+D:\Ehd New\Einvoince.Service\bin\Debug\Newtonsoft.Json.xml
+D:\Ehd New\Einvoince.Service\bin\Debug\System.ValueTuple.xml
+D:\Ehd New\Einvoince.Service\obj\Debug\Einvoince.Service.csprojResolveAssemblyReference.cache
+D:\Ehd New\Einvoince.Service\obj\Debug\Einvoince.Service.dll
+D:\Ehd New\Einvoince.Service\obj\Debug\Einvoince.Service.pdb
+C:\work\EHDv221\Einvoince.Service\bin\Debug\Einvoince.Service.dll.config
+C:\work\EHDv221\Einvoince.Service\bin\Debug\Einvoince.Service.dll
+C:\work\EHDv221\Einvoince.Service\bin\Debug\Einvoince.Service.pdb
+C:\work\EHDv221\Einvoince.Service\bin\Debug\AutoMapper.dll
+C:\work\EHDv221\Einvoince.Service\bin\Debug\Einvoince.DAL.dll
+C:\work\EHDv221\Einvoince.Service\bin\Debug\Einvoince.Domain.dll
+C:\work\EHDv221\Einvoince.Service\bin\Debug\Einvoince.ENT.dll
+C:\work\EHDv221\Einvoince.Service\bin\Debug\EntityFramework.dll
+C:\work\EHDv221\Einvoince.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\work\EHDv221\Einvoince.Service\bin\Debug\Library.dll
+C:\work\EHDv221\Einvoince.Service\bin\Debug\Library.Encryption.dll
+C:\work\EHDv221\Einvoince.Service\bin\Debug\Library.Utils.dll
+C:\work\EHDv221\Einvoince.Service\bin\Debug\log4net.dll
+C:\work\EHDv221\Einvoince.Service\bin\Debug\Newtonsoft.Json.dll
+C:\work\EHDv221\Einvoince.Service\bin\Debug\System.ValueTuple.dll
+C:\work\EHDv221\Einvoince.Service\bin\Debug\Einvoince.DAL.pdb
+C:\work\EHDv221\Einvoince.Service\bin\Debug\Einvoince.Domain.pdb
+C:\work\EHDv221\Einvoince.Service\bin\Debug\Einvoince.ENT.pdb
+C:\work\EHDv221\Einvoince.Service\bin\Debug\Library.pdb
+C:\work\EHDv221\Einvoince.Service\bin\Debug\AutoMapper.pdb
+C:\work\EHDv221\Einvoince.Service\bin\Debug\AutoMapper.xml
+C:\work\EHDv221\Einvoince.Service\bin\Debug\EntityFramework.xml
+C:\work\EHDv221\Einvoince.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\work\EHDv221\Einvoince.Service\bin\Debug\log4net.xml
+C:\work\EHDv221\Einvoince.Service\bin\Debug\Newtonsoft.Json.xml
+C:\work\EHDv221\Einvoince.Service\bin\Debug\System.ValueTuple.xml
+C:\work\EHDv221\Einvoince.Service\obj\Debug\Einvoince.Service.csprojResolveAssemblyReference.cache
+C:\work\EHDv221\Einvoince.Service\obj\Debug\Einvoince.Service.dll
+C:\work\EHDv221\Einvoince.Service\obj\Debug\Einvoince.Service.pdb
+C:\work\EHDv230\Einvoince.Service\bin\Debug\Einvoince.Service.dll.config
+C:\work\EHDv230\Einvoince.Service\bin\Debug\Einvoince.Service.dll
+C:\work\EHDv230\Einvoince.Service\bin\Debug\Einvoince.Service.pdb
+C:\work\EHDv230\Einvoince.Service\bin\Debug\AutoMapper.dll
+C:\work\EHDv230\Einvoince.Service\bin\Debug\Einvoince.DAL.dll
+C:\work\EHDv230\Einvoince.Service\bin\Debug\Einvoince.Domain.dll
+C:\work\EHDv230\Einvoince.Service\bin\Debug\Einvoince.ENT.dll
+C:\work\EHDv230\Einvoince.Service\bin\Debug\EntityFramework.dll
+C:\work\EHDv230\Einvoince.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\work\EHDv230\Einvoince.Service\bin\Debug\Library.dll
+C:\work\EHDv230\Einvoince.Service\bin\Debug\Library.Encryption.dll
+C:\work\EHDv230\Einvoince.Service\bin\Debug\Library.Utils.dll
+C:\work\EHDv230\Einvoince.Service\bin\Debug\log4net.dll
+C:\work\EHDv230\Einvoince.Service\bin\Debug\Newtonsoft.Json.dll
+C:\work\EHDv230\Einvoince.Service\bin\Debug\System.ValueTuple.dll
+C:\work\EHDv230\Einvoince.Service\bin\Debug\Einvoince.DAL.pdb
+C:\work\EHDv230\Einvoince.Service\bin\Debug\Einvoince.Domain.pdb
+C:\work\EHDv230\Einvoince.Service\bin\Debug\Einvoince.ENT.pdb
+C:\work\EHDv230\Einvoince.Service\bin\Debug\Library.pdb
+C:\work\EHDv230\Einvoince.Service\bin\Debug\AutoMapper.pdb
+C:\work\EHDv230\Einvoince.Service\bin\Debug\AutoMapper.xml
+C:\work\EHDv230\Einvoince.Service\bin\Debug\EntityFramework.xml
+C:\work\EHDv230\Einvoince.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\work\EHDv230\Einvoince.Service\bin\Debug\log4net.xml
+C:\work\EHDv230\Einvoince.Service\bin\Debug\Newtonsoft.Json.xml
+C:\work\EHDv230\Einvoince.Service\bin\Debug\System.ValueTuple.xml
+C:\work\EHDv230\Einvoince.Service\obj\Debug\Einvoince.Service.csprojResolveAssemblyReference.cache
+C:\work\EHDv230\Einvoince.Service\obj\Debug\Einvoince.Service.dll
+C:\work\EHDv230\Einvoince.Service\obj\Debug\Einvoince.Service.pdb
+C:\work\EHDv231\Einvoince.Service\bin\Debug\Einvoince.Service.dll.config
+C:\work\EHDv231\Einvoince.Service\bin\Debug\Einvoince.Service.dll
+C:\work\EHDv231\Einvoince.Service\bin\Debug\Einvoince.Service.pdb
+C:\work\EHDv231\Einvoince.Service\bin\Debug\AutoMapper.dll
+C:\work\EHDv231\Einvoince.Service\bin\Debug\Einvoince.DAL.dll
+C:\work\EHDv231\Einvoince.Service\bin\Debug\Einvoince.Domain.dll
+C:\work\EHDv231\Einvoince.Service\bin\Debug\Einvoince.ENT.dll
+C:\work\EHDv231\Einvoince.Service\bin\Debug\EntityFramework.dll
+C:\work\EHDv231\Einvoince.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\work\EHDv231\Einvoince.Service\bin\Debug\Library.dll
+C:\work\EHDv231\Einvoince.Service\bin\Debug\Library.Encryption.dll
+C:\work\EHDv231\Einvoince.Service\bin\Debug\Library.Utils.dll
+C:\work\EHDv231\Einvoince.Service\bin\Debug\log4net.dll
+C:\work\EHDv231\Einvoince.Service\bin\Debug\Newtonsoft.Json.dll
+C:\work\EHDv231\Einvoince.Service\bin\Debug\System.ValueTuple.dll
+C:\work\EHDv231\Einvoince.Service\bin\Debug\Einvoince.DAL.pdb
+C:\work\EHDv231\Einvoince.Service\bin\Debug\Einvoince.Domain.pdb
+C:\work\EHDv231\Einvoince.Service\bin\Debug\Einvoince.ENT.pdb
+C:\work\EHDv231\Einvoince.Service\bin\Debug\Library.pdb
+C:\work\EHDv231\Einvoince.Service\bin\Debug\AutoMapper.pdb
+C:\work\EHDv231\Einvoince.Service\bin\Debug\AutoMapper.xml
+C:\work\EHDv231\Einvoince.Service\bin\Debug\EntityFramework.xml
+C:\work\EHDv231\Einvoince.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\work\EHDv231\Einvoince.Service\bin\Debug\log4net.xml
+C:\work\EHDv231\Einvoince.Service\bin\Debug\Newtonsoft.Json.xml
+C:\work\EHDv231\Einvoince.Service\bin\Debug\System.ValueTuple.xml
+C:\work\EHDv231\Einvoince.Service\obj\Debug\Einvoince.Service.csprojResolveAssemblyReference.cache
+C:\work\EHDv231\Einvoince.Service\obj\Debug\Einvoince.Service.dll
+C:\work\EHDv231\Einvoince.Service\obj\Debug\Einvoince.Service.pdb
+D:\project\EHDv232\Einvoince.Service\bin\Debug\Einvoince.Service.dll.config
+D:\project\EHDv232\Einvoince.Service\bin\Debug\Einvoince.Service.dll
+D:\project\EHDv232\Einvoince.Service\bin\Debug\Einvoince.Service.pdb
+D:\project\EHDv232\Einvoince.Service\bin\Debug\AutoMapper.dll
+D:\project\EHDv232\Einvoince.Service\bin\Debug\Einvoince.DAL.dll
+D:\project\EHDv232\Einvoince.Service\bin\Debug\Einvoince.Domain.dll
+D:\project\EHDv232\Einvoince.Service\bin\Debug\Einvoince.ENT.dll
+D:\project\EHDv232\Einvoince.Service\bin\Debug\EntityFramework.dll
+D:\project\EHDv232\Einvoince.Service\bin\Debug\EntityFramework.SqlServer.dll
+D:\project\EHDv232\Einvoince.Service\bin\Debug\Library.dll
+D:\project\EHDv232\Einvoince.Service\bin\Debug\Library.Encryption.dll
+D:\project\EHDv232\Einvoince.Service\bin\Debug\Library.Utils.dll
+D:\project\EHDv232\Einvoince.Service\bin\Debug\log4net.dll
+D:\project\EHDv232\Einvoince.Service\bin\Debug\Newtonsoft.Json.dll
+D:\project\EHDv232\Einvoince.Service\bin\Debug\System.ValueTuple.dll
+D:\project\EHDv232\Einvoince.Service\bin\Debug\Einvoince.DAL.pdb
+D:\project\EHDv232\Einvoince.Service\bin\Debug\Einvoince.Domain.pdb
+D:\project\EHDv232\Einvoince.Service\bin\Debug\Einvoince.ENT.pdb
+D:\project\EHDv232\Einvoince.Service\bin\Debug\Library.pdb
+D:\project\EHDv232\Einvoince.Service\bin\Debug\AutoMapper.pdb
+D:\project\EHDv232\Einvoince.Service\bin\Debug\AutoMapper.xml
+D:\project\EHDv232\Einvoince.Service\bin\Debug\EntityFramework.xml
+D:\project\EHDv232\Einvoince.Service\bin\Debug\EntityFramework.SqlServer.xml
+D:\project\EHDv232\Einvoince.Service\bin\Debug\log4net.xml
+D:\project\EHDv232\Einvoince.Service\bin\Debug\Newtonsoft.Json.xml
+D:\project\EHDv232\Einvoince.Service\bin\Debug\System.ValueTuple.xml
+D:\project\EHDv232\Einvoince.Service\obj\Debug\Einvoince.Service.csprojResolveAssemblyReference.cache
+D:\project\EHDv232\Einvoince.Service\obj\Debug\Einvoince.Service.dll
+D:\project\EHDv232\Einvoince.Service\obj\Debug\Einvoince.Service.pdb
+D:\Source\EHDv233\Einvoince.Service\bin\Debug\Einvoince.Service.dll.config
+D:\Source\EHDv233\Einvoince.Service\bin\Debug\Einvoince.Service.dll
+D:\Source\EHDv233\Einvoince.Service\bin\Debug\Einvoince.Service.pdb
+D:\Source\EHDv233\Einvoince.Service\bin\Debug\AutoMapper.dll
+D:\Source\EHDv233\Einvoince.Service\bin\Debug\Einvoince.DAL.dll
+D:\Source\EHDv233\Einvoince.Service\bin\Debug\Einvoince.Domain.dll
+D:\Source\EHDv233\Einvoince.Service\bin\Debug\Einvoince.ENT.dll
+D:\Source\EHDv233\Einvoince.Service\bin\Debug\EntityFramework.dll
+D:\Source\EHDv233\Einvoince.Service\bin\Debug\EntityFramework.SqlServer.dll
+D:\Source\EHDv233\Einvoince.Service\bin\Debug\Library.dll
+D:\Source\EHDv233\Einvoince.Service\bin\Debug\Library.Encryption.dll
+D:\Source\EHDv233\Einvoince.Service\bin\Debug\Library.Utils.dll
+D:\Source\EHDv233\Einvoince.Service\bin\Debug\log4net.dll
+D:\Source\EHDv233\Einvoince.Service\bin\Debug\Newtonsoft.Json.dll
+D:\Source\EHDv233\Einvoince.Service\bin\Debug\System.ValueTuple.dll
+D:\Source\EHDv233\Einvoince.Service\bin\Debug\Einvoince.DAL.pdb
+D:\Source\EHDv233\Einvoince.Service\bin\Debug\Einvoince.Domain.pdb
+D:\Source\EHDv233\Einvoince.Service\bin\Debug\Einvoince.ENT.pdb
+D:\Source\EHDv233\Einvoince.Service\bin\Debug\Library.pdb
+D:\Source\EHDv233\Einvoince.Service\bin\Debug\AutoMapper.pdb
+D:\Source\EHDv233\Einvoince.Service\bin\Debug\AutoMapper.xml
+D:\Source\EHDv233\Einvoince.Service\bin\Debug\EntityFramework.xml
+D:\Source\EHDv233\Einvoince.Service\bin\Debug\EntityFramework.SqlServer.xml
+D:\Source\EHDv233\Einvoince.Service\bin\Debug\log4net.xml
+D:\Source\EHDv233\Einvoince.Service\bin\Debug\Newtonsoft.Json.xml
+D:\Source\EHDv233\Einvoince.Service\bin\Debug\System.ValueTuple.xml
+D:\Source\EHDv233\Einvoince.Service\obj\Debug\Einvoince.Service.csprojResolveAssemblyReference.cache
+D:\Source\EHDv233\Einvoince.Service\obj\Debug\Einvoince.Service.dll
+D:\Source\EHDv233\Einvoince.Service\obj\Debug\Einvoince.Service.pdb
+D:\project\EHDv233\Einvoince.Service\bin\Debug\Einvoince.Service.dll.config
+D:\project\EHDv233\Einvoince.Service\bin\Debug\Einvoince.Service.dll
+D:\project\EHDv233\Einvoince.Service\bin\Debug\Einvoince.Service.pdb
+D:\project\EHDv233\Einvoince.Service\bin\Debug\AutoMapper.dll
+D:\project\EHDv233\Einvoince.Service\bin\Debug\Einvoince.DAL.dll
+D:\project\EHDv233\Einvoince.Service\bin\Debug\Einvoince.Domain.dll
+D:\project\EHDv233\Einvoince.Service\bin\Debug\Einvoince.ENT.dll
+D:\project\EHDv233\Einvoince.Service\bin\Debug\EntityFramework.dll
+D:\project\EHDv233\Einvoince.Service\bin\Debug\EntityFramework.SqlServer.dll
+D:\project\EHDv233\Einvoince.Service\bin\Debug\Library.dll
+D:\project\EHDv233\Einvoince.Service\bin\Debug\Library.Encryption.dll
+D:\project\EHDv233\Einvoince.Service\bin\Debug\Library.Utils.dll
+D:\project\EHDv233\Einvoince.Service\bin\Debug\log4net.dll
+D:\project\EHDv233\Einvoince.Service\bin\Debug\Newtonsoft.Json.dll
+D:\project\EHDv233\Einvoince.Service\bin\Debug\System.ValueTuple.dll
+D:\project\EHDv233\Einvoince.Service\bin\Debug\Einvoince.DAL.pdb
+D:\project\EHDv233\Einvoince.Service\bin\Debug\Einvoince.Domain.pdb
+D:\project\EHDv233\Einvoince.Service\bin\Debug\Einvoince.ENT.pdb
+D:\project\EHDv233\Einvoince.Service\bin\Debug\Library.pdb
+D:\project\EHDv233\Einvoince.Service\bin\Debug\AutoMapper.pdb
+D:\project\EHDv233\Einvoince.Service\bin\Debug\AutoMapper.xml
+D:\project\EHDv233\Einvoince.Service\bin\Debug\EntityFramework.xml
+D:\project\EHDv233\Einvoince.Service\bin\Debug\EntityFramework.SqlServer.xml
+D:\project\EHDv233\Einvoince.Service\bin\Debug\log4net.xml
+D:\project\EHDv233\Einvoince.Service\bin\Debug\Newtonsoft.Json.xml
+D:\project\EHDv233\Einvoince.Service\bin\Debug\System.ValueTuple.xml
+D:\project\EHDv233\Einvoince.Service\obj\Debug\Einvoince.Service.csprojResolveAssemblyReference.cache
+D:\project\EHDv233\Einvoince.Service\obj\Debug\Einvoince.Service.dll
+D:\project\EHDv233\Einvoince.Service\obj\Debug\Einvoince.Service.pdb
+D:\EHDv233\Einvoince.Service\obj\Debug\Einvoince.Service.csprojResolveAssemblyReference.cache
+D:\EHDv233\Einvoince.Service\bin\Debug\Einvoince.Service.dll.config
+D:\EHDv233\Einvoince.Service\bin\Debug\Einvoince.Service.dll
+D:\EHDv233\Einvoince.Service\bin\Debug\Einvoince.Service.pdb
+D:\EHDv233\Einvoince.Service\bin\Debug\AutoMapper.dll
+D:\EHDv233\Einvoince.Service\bin\Debug\Einvoince.DAL.dll
+D:\EHDv233\Einvoince.Service\bin\Debug\Einvoince.Domain.dll
+D:\EHDv233\Einvoince.Service\bin\Debug\Einvoince.ENT.dll
+D:\EHDv233\Einvoince.Service\bin\Debug\EntityFramework.dll
+D:\EHDv233\Einvoince.Service\bin\Debug\EntityFramework.SqlServer.dll
+D:\EHDv233\Einvoince.Service\bin\Debug\Library.dll
+D:\EHDv233\Einvoince.Service\bin\Debug\Library.Encryption.dll
+D:\EHDv233\Einvoince.Service\bin\Debug\Library.Utils.dll
+D:\EHDv233\Einvoince.Service\bin\Debug\log4net.dll
+D:\EHDv233\Einvoince.Service\bin\Debug\Newtonsoft.Json.dll
+D:\EHDv233\Einvoince.Service\bin\Debug\System.ValueTuple.dll
+D:\EHDv233\Einvoince.Service\bin\Debug\Einvoince.DAL.pdb
+D:\EHDv233\Einvoince.Service\bin\Debug\Einvoince.Domain.pdb
+D:\EHDv233\Einvoince.Service\bin\Debug\Einvoince.ENT.pdb
+D:\EHDv233\Einvoince.Service\bin\Debug\Library.pdb
+D:\EHDv233\Einvoince.Service\bin\Debug\AutoMapper.pdb
+D:\EHDv233\Einvoince.Service\bin\Debug\AutoMapper.xml
+D:\EHDv233\Einvoince.Service\bin\Debug\EntityFramework.xml
+D:\EHDv233\Einvoince.Service\bin\Debug\EntityFramework.SqlServer.xml
+D:\EHDv233\Einvoince.Service\bin\Debug\log4net.xml
+D:\EHDv233\Einvoince.Service\bin\Debug\Newtonsoft.Json.xml
+D:\EHDv233\Einvoince.Service\bin\Debug\System.ValueTuple.xml
+D:\EHDv233\Einvoince.Service\obj\Debug\Einvoince.Service.dll
+D:\EHDv233\Einvoince.Service\obj\Debug\Einvoince.Service.pdb
+D:\project\EHDv240\Einvoince.Service\bin\Debug\Einvoince.Service.dll.config
+D:\project\EHDv240\Einvoince.Service\bin\Debug\Einvoince.Service.dll
+D:\project\EHDv240\Einvoince.Service\bin\Debug\Einvoince.Service.pdb
+D:\project\EHDv240\Einvoince.Service\bin\Debug\AutoMapper.dll
+D:\project\EHDv240\Einvoince.Service\bin\Debug\Einvoince.DAL.dll
+D:\project\EHDv240\Einvoince.Service\bin\Debug\Einvoince.Domain.dll
+D:\project\EHDv240\Einvoince.Service\bin\Debug\EntityFramework.dll
+D:\project\EHDv240\Einvoince.Service\bin\Debug\EntityFramework.SqlServer.dll
+D:\project\EHDv240\Einvoince.Service\bin\Debug\Library.dll
+D:\project\EHDv240\Einvoince.Service\bin\Debug\Library.Encryption.dll
+D:\project\EHDv240\Einvoince.Service\bin\Debug\Library.Utils.dll
+D:\project\EHDv240\Einvoince.Service\bin\Debug\log4net.dll
+D:\project\EHDv240\Einvoince.Service\bin\Debug\Newtonsoft.Json.dll
+D:\project\EHDv240\Einvoince.Service\bin\Debug\System.ValueTuple.dll
+D:\project\EHDv240\Einvoince.Service\bin\Debug\Einvoince.DAL.pdb
+D:\project\EHDv240\Einvoince.Service\bin\Debug\Einvoince.Domain.pdb
+D:\project\EHDv240\Einvoince.Service\bin\Debug\Library.pdb
+D:\project\EHDv240\Einvoince.Service\bin\Debug\AutoMapper.pdb
+D:\project\EHDv240\Einvoince.Service\bin\Debug\AutoMapper.xml
+D:\project\EHDv240\Einvoince.Service\bin\Debug\EntityFramework.xml
+D:\project\EHDv240\Einvoince.Service\bin\Debug\EntityFramework.SqlServer.xml
+D:\project\EHDv240\Einvoince.Service\bin\Debug\log4net.xml
+D:\project\EHDv240\Einvoince.Service\bin\Debug\Newtonsoft.Json.xml
+D:\project\EHDv240\Einvoince.Service\bin\Debug\System.ValueTuple.xml
+D:\project\EHDv240\Einvoince.Service\obj\Debug\Einvoince.Service.csprojResolveAssemblyReference.cache
+D:\project\EHDv240\Einvoince.Service\obj\Debug\Einvoince.Service.dll
+D:\project\EHDv240\Einvoince.Service\obj\Debug\Einvoince.Service.pdb
+C:\work\EHDv240\Einvoince.Service\bin\Debug\Einvoince.Service.dll.config
+C:\work\EHDv240\Einvoince.Service\bin\Debug\Einvoince.Service.dll
+C:\work\EHDv240\Einvoince.Service\bin\Debug\Einvoince.Service.pdb
+C:\work\EHDv240\Einvoince.Service\bin\Debug\AutoMapper.dll
+C:\work\EHDv240\Einvoince.Service\bin\Debug\Einvoince.DAL.dll
+C:\work\EHDv240\Einvoince.Service\bin\Debug\Einvoince.Domain.dll
+C:\work\EHDv240\Einvoince.Service\bin\Debug\EntityFramework.dll
+C:\work\EHDv240\Einvoince.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\work\EHDv240\Einvoince.Service\bin\Debug\Library.dll
+C:\work\EHDv240\Einvoince.Service\bin\Debug\Library.Encryption.dll
+C:\work\EHDv240\Einvoince.Service\bin\Debug\Library.Utils.dll
+C:\work\EHDv240\Einvoince.Service\bin\Debug\log4net.dll
+C:\work\EHDv240\Einvoince.Service\bin\Debug\Newtonsoft.Json.dll
+C:\work\EHDv240\Einvoince.Service\bin\Debug\System.ValueTuple.dll
+C:\work\EHDv240\Einvoince.Service\bin\Debug\Einvoince.DAL.pdb
+C:\work\EHDv240\Einvoince.Service\bin\Debug\Einvoince.Domain.pdb
+C:\work\EHDv240\Einvoince.Service\bin\Debug\Library.pdb
+C:\work\EHDv240\Einvoince.Service\bin\Debug\AutoMapper.pdb
+C:\work\EHDv240\Einvoince.Service\bin\Debug\AutoMapper.xml
+C:\work\EHDv240\Einvoince.Service\bin\Debug\EntityFramework.xml
+C:\work\EHDv240\Einvoince.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\work\EHDv240\Einvoince.Service\bin\Debug\log4net.xml
+C:\work\EHDv240\Einvoince.Service\bin\Debug\Newtonsoft.Json.xml
+C:\work\EHDv240\Einvoince.Service\bin\Debug\System.ValueTuple.xml
+C:\work\EHDv240\Einvoince.Service\obj\Debug\Einvoince.Service.csprojResolveAssemblyReference.cache
+C:\work\EHDv240\Einvoince.Service\obj\Debug\Einvoince.Service.dll
+C:\work\EHDv240\Einvoince.Service\obj\Debug\Einvoince.Service.pdb
+D:\EHDv240\Einvoince.Service\bin\Debug\Einvoince.Service.dll.config
+D:\EHDv240\Einvoince.Service\bin\Debug\Einvoince.Service.dll
+D:\EHDv240\Einvoince.Service\bin\Debug\Einvoince.Service.pdb
+D:\EHDv240\Einvoince.Service\bin\Debug\AutoMapper.dll
+D:\EHDv240\Einvoince.Service\bin\Debug\Einvoince.DAL.dll
+D:\EHDv240\Einvoince.Service\bin\Debug\Einvoince.Domain.dll
+D:\EHDv240\Einvoince.Service\bin\Debug\EntityFramework.dll
+D:\EHDv240\Einvoince.Service\bin\Debug\EntityFramework.SqlServer.dll
+D:\EHDv240\Einvoince.Service\bin\Debug\Library.dll
+D:\EHDv240\Einvoince.Service\bin\Debug\Library.Encryption.dll
+D:\EHDv240\Einvoince.Service\bin\Debug\Library.Utils.dll
+D:\EHDv240\Einvoince.Service\bin\Debug\log4net.dll
+D:\EHDv240\Einvoince.Service\bin\Debug\Newtonsoft.Json.dll
+D:\EHDv240\Einvoince.Service\bin\Debug\System.ValueTuple.dll
+D:\EHDv240\Einvoince.Service\bin\Debug\Einvoince.DAL.pdb
+D:\EHDv240\Einvoince.Service\bin\Debug\Einvoince.Domain.pdb
+D:\EHDv240\Einvoince.Service\bin\Debug\Library.pdb
+D:\EHDv240\Einvoince.Service\bin\Debug\AutoMapper.pdb
+D:\EHDv240\Einvoince.Service\bin\Debug\AutoMapper.xml
+D:\EHDv240\Einvoince.Service\bin\Debug\EntityFramework.xml
+D:\EHDv240\Einvoince.Service\bin\Debug\EntityFramework.SqlServer.xml
+D:\EHDv240\Einvoince.Service\bin\Debug\log4net.xml
+D:\EHDv240\Einvoince.Service\bin\Debug\Newtonsoft.Json.xml
+D:\EHDv240\Einvoince.Service\bin\Debug\System.ValueTuple.xml
+D:\EHDv240\Einvoince.Service\obj\Debug\Einvoince.Service.csprojResolveAssemblyReference.cache
+D:\EHDv240\Einvoince.Service\obj\Debug\Einvoince.Service.dll
+D:\EHDv240\Einvoince.Service\obj\Debug\Einvoince.Service.pdb
+H:\EHDv240\Einvoince.Service\bin\Debug\Einvoince.Service.dll.config
+H:\EHDv240\Einvoince.Service\bin\Debug\Einvoince.Service.dll
+H:\EHDv240\Einvoince.Service\bin\Debug\Einvoince.Service.pdb
+H:\EHDv240\Einvoince.Service\bin\Debug\AutoMapper.dll
+H:\EHDv240\Einvoince.Service\bin\Debug\Einvoince.DAL.dll
+H:\EHDv240\Einvoince.Service\bin\Debug\Einvoince.Domain.dll
+H:\EHDv240\Einvoince.Service\bin\Debug\EntityFramework.dll
+H:\EHDv240\Einvoince.Service\bin\Debug\EntityFramework.SqlServer.dll
+H:\EHDv240\Einvoince.Service\bin\Debug\Library.dll
+H:\EHDv240\Einvoince.Service\bin\Debug\Library.Encryption.dll
+H:\EHDv240\Einvoince.Service\bin\Debug\Library.Utils.dll
+H:\EHDv240\Einvoince.Service\bin\Debug\log4net.dll
+H:\EHDv240\Einvoince.Service\bin\Debug\Newtonsoft.Json.dll
+H:\EHDv240\Einvoince.Service\bin\Debug\StackExchange.Redis.dll
+H:\EHDv240\Einvoince.Service\bin\Debug\System.ValueTuple.dll
+H:\EHDv240\Einvoince.Service\bin\Debug\Einvoince.DAL.pdb
+H:\EHDv240\Einvoince.Service\bin\Debug\Einvoince.Domain.pdb
+H:\EHDv240\Einvoince.Service\bin\Debug\Library.pdb
+H:\EHDv240\Einvoince.Service\bin\Debug\AutoMapper.pdb
+H:\EHDv240\Einvoince.Service\bin\Debug\AutoMapper.xml
+H:\EHDv240\Einvoince.Service\bin\Debug\EntityFramework.xml
+H:\EHDv240\Einvoince.Service\bin\Debug\EntityFramework.SqlServer.xml
+H:\EHDv240\Einvoince.Service\bin\Debug\log4net.xml
+H:\EHDv240\Einvoince.Service\bin\Debug\Newtonsoft.Json.xml
+H:\EHDv240\Einvoince.Service\bin\Debug\StackExchange.Redis.xml
+H:\EHDv240\Einvoince.Service\bin\Debug\System.ValueTuple.xml
+H:\EHDv240\Einvoince.Service\obj\Debug\Einvoince.Service.csprojResolveAssemblyReference.cache
+H:\EHDv240\Einvoince.Service\obj\Debug\Einvoince.Service.dll
+H:\EHDv240\Einvoince.Service\obj\Debug\Einvoince.Service.pdb
+H:\TestC#\TestLayer\Einvoince.Service\obj\Debug\Einvoince.Service.csprojResolveAssemblyReference.cache
+H:\TestC#\TestLayer\Einvoince.Service\obj\Debug\Einvoince.Service.dll
+H:\TestC#\TestLayer\Einvoince.Service\obj\Debug\Einvoince.Service.pdb
+H:\TestC#\TestLayer\Einvoince.Service\bin\Debug\Einvoince.Service.dll.config
+H:\TestC#\TestLayer\Einvoince.Service\bin\Debug\Einvoince.Service.dll
+H:\TestC#\TestLayer\Einvoince.Service\bin\Debug\Einvoince.Service.pdb
+H:\TestC#\TestLayer\Einvoince.Service\bin\Debug\AutoMapper.dll
+H:\TestC#\TestLayer\Einvoince.Service\bin\Debug\Einvoince.Domain.dll
+H:\TestC#\TestLayer\Einvoince.Service\bin\Debug\EntityFramework.dll
+H:\TestC#\TestLayer\Einvoince.Service\bin\Debug\EntityFramework.SqlServer.dll
+H:\TestC#\TestLayer\Einvoince.Service\bin\Debug\Library.dll
+H:\TestC#\TestLayer\Einvoince.Service\bin\Debug\log4net.dll
+H:\TestC#\TestLayer\Einvoince.Service\bin\Debug\Newtonsoft.Json.dll
+H:\TestC#\TestLayer\Einvoince.Service\bin\Debug\StackExchange.Redis.dll
+H:\TestC#\TestLayer\Einvoince.Service\bin\Debug\System.ValueTuple.dll
+H:\TestC#\TestLayer\Einvoince.Service\bin\Debug\Einvoince.Domain.pdb
+H:\TestC#\TestLayer\Einvoince.Service\bin\Debug\Library.pdb
+H:\TestC#\TestLayer\Einvoince.Service\bin\Debug\AutoMapper.pdb
+H:\TestC#\TestLayer\Einvoince.Service\bin\Debug\AutoMapper.xml
+H:\TestC#\TestLayer\Einvoince.Service\bin\Debug\EntityFramework.xml
+H:\TestC#\TestLayer\Einvoince.Service\bin\Debug\EntityFramework.SqlServer.xml
+H:\TestC#\TestLayer\Einvoince.Service\bin\Debug\log4net.xml
+H:\TestC#\TestLayer\Einvoince.Service\bin\Debug\Newtonsoft.Json.xml
+H:\TestC#\TestLayer\Einvoince.Service\bin\Debug\StackExchange.Redis.xml
+H:\TestC#\TestLayer\Einvoince.Service\bin\Debug\System.ValueTuple.xml
+H:\TestC#\TestLayer\Einvoince.Service\bin\Debug\Shop.DAL.dll
+H:\TestC#\TestLayer\Einvoince.Service\bin\Debug\Shop.DAL.pdb

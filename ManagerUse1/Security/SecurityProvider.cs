@@ -120,7 +120,7 @@ namespace Einvoince.Web.Security
                         //UserCachingProvider.Instance.CacheRoles(userData.Id, string.Join(",",roles));
                     //}
                     var userPrincipal = new UserPrincipal(identity, null);
-                    userPrincipal.Idl = userData.Id;
+                    userPrincipal.Id = userData.Id;
                     userPrincipal.Username = userData.Username;
                     userPrincipal.Email = userData.Email;
                     userPrincipal.Password = userData.Password;

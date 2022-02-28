@@ -52,3 +52,8 @@ H:\TestC#\Shop3N\Shop.DAL\obj\Debug\Shop.DAL.csproj.CoreCompileInputs.cache
 H:\TestC#\Shop3N\Shop.DAL\obj\Debug\Shop.DAL.csproj.CopyComplete
 H:\TestC#\Shop3N\Shop.DAL\obj\Debug\Shop.DAL.dll
 H:\TestC#\Shop3N\Shop.DAL\obj\Debug\Shop.DAL.pdb
+H:\TestC#\Shop3N\Shop.DAL\bin\Debug\Newtonsoft.Json.Bson.dll
+H:\TestC#\Shop3N\Shop.DAL\bin\Debug\Newtonsoft.Json.dll
+H:\TestC#\Shop3N\Shop.DAL\bin\Debug\Newtonsoft.Json.xml
+H:\TestC#\Shop3N\Shop.DAL\bin\Debug\Newtonsoft.Json.Bson.pdb
+H:\TestC#\Shop3N\Shop.DAL\bin\Debug\Newtonsoft.Json.Bson.xml

@@ -5,8 +5,9 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="6841bea405f3498095cf9d27d26d0eca" Name="Diagram1" ZoomLevel="84">
-        <EntityTypeShape EntityType="InvoiceData.tblUser" Width="1.5" PointX="0.75" PointY="0.75" />
-        <EntityTypeShape EntityType="InvoiceData.tblProduct" Width="1.5" PointX="3.375" PointY="0.75" />
+        <EntityTypeShape EntityType="InvoiceData.tblProduct" Width="1.5" PointX="3" PointY="1.125" />
+        <EntityTypeShape EntityType="InvoiceData.tblUser" Width="1.5" PointX="0.75" PointY="1" />
+        <AssociationConnector Association="InvoiceData.FK_tblProduct_tblUser" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

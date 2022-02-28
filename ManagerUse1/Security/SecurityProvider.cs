@@ -186,10 +186,8 @@ namespace Einvoince.Web.Security
         public void LogIn(UserModel userData, bool createPersistentCookie)
         {
             IIdentity identity = new GenericIdentity(userData.Username);
-            //var roles = UserCachingProvider.Instance.GetUserRoles(userData.Id);
-            //if (roles == null || roles.Count() < 1) roles = userBLL.GetAllRoleByUserId(userData.Id).Select(e => e.ID).ToArray();
-            //UserCachingProvider.Instance.CacheRoles(userData.Id, string.Join(",", roles));
-            var userPrincipal = new UserPrincipal(identity, null);
+            string[] roles = { };
+            var userPrincipal = new UserPrincipal(identity, roles);
             userPrincipal.Id = userData.Id;
             userPrincipal.Username = userData.Username;
             userPrincipal.Password = userData.Password;
@@ -231,17 +229,17 @@ namespace Einvoince.Web.Security
         /// </returns>
         public int ValidateUser(string userName, string password, bool isSavePass = true)
         {
-            var hassPass = BCrypt.Net.BCrypt.HashPassword(password, 13);
+            int resMess = -3;
             var user = userBLL.GetUserByUserName(userName);
-            if (user == null) return -3;
-            else if (!BCrypt.Net.BCrypt.Verify(password, user.Password)) return -2;
-            else if (user.Status == 1) return 1;
+            if (user == null) resMess = -2;
+            else if (!BCrypt.Net.BCrypt.Verify(password, user.Password)) resMess = -1;
+            else if (user.Status == 1) resMess = 1;
             else if (user.Status == 0)
             {
                 this.LogIn(user, isSavePass);
-                this.httpContext.Response.Redirect("/Home");
+                resMess = 0;
             }
-            return (int)user.Status;
+            return resMess;
         }
         #endregion
 

@@ -20,32 +20,7 @@ namespace ManagerUse1.Controllers
         protected override void Initialize(RequestContext requestContext)
         {
             base.Initialize(requestContext);
-            if (Request.Cookies[FormsAuthentication.FormsCookieName] != null) { 
-                var tmp = Request.Cookies[FormsAuthentication.FormsCookieName];
-                var test = FormsAuthentication.Decrypt(Request.Cookies[FormsAuthentication.FormsCookieName].Value);
-                if (test != null)
-                {
-                    CurrentUser = (UserPrincipal)HttpContext.Cache[test.Name];
-                    if(CurrentUser == null)
-                    {
-                        var thisUser = new UserBLL().GetUserByUserName(test.Name);
-                        if (thisUser != null)
-                        {
-                            var identity = new GenericIdentity(thisUser.Username);
-                            var principal = new UserPrincipal(identity, null);
-                            principal.Username = thisUser.Username;
-                            principal.Password = thisUser.Password;
-                            principal.Address = thisUser.Address;
-                            principal.Status = thisUser.Status;
-                            principal.UserType = thisUser.UserType;
-                            principal.CreateBy = thisUser.CreateBy;
-                            principal.CreateDate = thisUser.CreateDate;
-                            HttpContext.Cache[test.Name] = principal;
-                            CurrentUser = principal;
-                        }
-                    }
-                }    
-            }
+            this.CurrentUser = base.User as UserPrincipal;
             if (CurrentUser == null) Response.Redirect("/Auth/Login");
         }
         protected virtual void CheckRole(string role)

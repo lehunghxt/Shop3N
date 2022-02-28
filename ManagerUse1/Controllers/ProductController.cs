@@ -31,6 +31,9 @@ namespace ManagerUse1.Controllers
         {
             try
             {
+                product.UserId = CurrentUser.Id;
+                product.CreateBy = (int)CurrentUser.Id;
+                product.CreateDate = _productBLL.Now;
                 _productBLL.AddProduct(product);
                 ViewBag.Success = "Đã thêm sản phẩm.";
                 return RedirectToAction("Index");

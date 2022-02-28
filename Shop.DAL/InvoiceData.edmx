@@ -10,6 +10,7 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UserId" Type="bigint" />
           <Property Name="ProName" Type="nvarchar" MaxLength="200" />
           <Property Name="ProCode" Type="nvarchar" MaxLength="200" />
           <Property Name="Quantity" Type="int" />
@@ -33,18 +34,53 @@
           <Property Name="CreateBy" Type="int" />
           <Property Name="CreateDate" Type="date" />
         </EntityType>
+        <Association Name="FK_tblProduct_tblUser">
+          <End Role="tblUser" Type="Self.tblUser" Multiplicity="0..1" />
+          <End Role="tblProduct" Type="Self.tblProduct" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tblUser">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="tblProduct">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <EntityContainer Name="InvoiceDataStoreContainer">
           <EntitySet Name="tblProduct" EntityType="Self.tblProduct" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="tblUser" EntityType="Self.tblUser" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_tblProduct_tblUser" Association="Self.FK_tblProduct_tblUser">
+            <End Role="tblUser" EntitySet="tblUser" />
+            <End Role="tblProduct" EntitySet="tblProduct" />
+          </AssociationSet>
         </EntityContainer>
       </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="InvoiceData" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
         <EntityContainer Name="ShopEntities" annotation:LazyLoadingEnabled="true">
-          <EntitySet Name="tblUser" EntityType="InvoiceData.tblUser" />
           <EntitySet Name="tblProduct" EntityType="InvoiceData.tblProduct" />
+          <EntitySet Name="tblUser" EntityType="InvoiceData.tblUser" />
+          <AssociationSet Name="FK_tblProduct_tblUser" Association="InvoiceData.FK_tblProduct_tblUser">
+            <End Role="tblUser" EntitySet="tblUser" />
+            <End Role="tblProduct" EntitySet="tblProduct" />
+          </AssociationSet>
         </EntityContainer>
+        <EntityType Name="tblProduct">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserId" Type="Int64" />
+          <Property Name="ProName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="ProCode" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="Quantity" Type="Int32" />
+          <Property Name="Price" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="Slug" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="CreateDate" Type="DateTime" Precision="0" />
+          <Property Name="CreateBy" Type="Int32" />
+          <NavigationProperty Name="tblUser" Relationship="InvoiceData.FK_tblProduct_tblUser" FromRole="tblProduct" ToRole="tblUser" />
+        </EntityType>
         <EntityType Name="tblUser">
           <Key>
             <PropertyRef Name="Id" />
@@ -59,26 +95,41 @@
           <Property Name="Email" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="CreateBy" Type="Int32" />
           <Property Name="CreateDate" Type="DateTime" Precision="0" />
+          <NavigationProperty Name="tblProduct" Relationship="InvoiceData.FK_tblProduct_tblUser" FromRole="tblUser" ToRole="tblProduct" />
         </EntityType>
-        <EntityType Name="tblProduct">
-          <Key>
-            <PropertyRef Name="Id" />
-          </Key>
-          <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="ProName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
-          <Property Name="ProCode" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
-          <Property Name="Quantity" Type="Int32" />
-          <Property Name="Price" Type="Decimal" Precision="18" Scale="0" />
-          <Property Name="Slug" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
-          <Property Name="CreateDate" Type="DateTime" Precision="0" />
-          <Property Name="CreateBy" Type="Int32" />
-        </EntityType>
+        <Association Name="FK_tblProduct_tblUser">
+          <End Type="InvoiceData.tblUser" Role="tblUser" Multiplicity="0..1" />
+          <End Type="InvoiceData.tblProduct" Role="tblProduct" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tblUser">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="tblProduct">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
         <EntityContainerMapping StorageEntityContainer="InvoiceDataStoreContainer" CdmEntityContainer="ShopEntities">
+          <EntitySetMapping Name="tblProduct">
+            <EntityTypeMapping TypeName="InvoiceData.tblProduct">
+              <MappingFragment StoreEntitySet="tblProduct">
+                <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+                <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+                <ScalarProperty Name="Slug" ColumnName="Slug" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+                <ScalarProperty Name="ProCode" ColumnName="ProCode" />
+                <ScalarProperty Name="ProName" ColumnName="ProName" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
           <EntitySetMapping Name="tblUser">
             <EntityTypeMapping TypeName="InvoiceData.tblUser">
               <MappingFragment StoreEntitySet="tblUser">
@@ -91,20 +142,6 @@
                 <ScalarProperty Name="Address" ColumnName="Address" />
                 <ScalarProperty Name="Password" ColumnName="Password" />
                 <ScalarProperty Name="Username" ColumnName="Username" />
-                <ScalarProperty Name="Id" ColumnName="Id" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="tblProduct">
-            <EntityTypeMapping TypeName="InvoiceData.tblProduct">
-              <MappingFragment StoreEntitySet="tblProduct">
-                <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
-                <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
-                <ScalarProperty Name="Slug" ColumnName="Slug" />
-                <ScalarProperty Name="Price" ColumnName="Price" />
-                <ScalarProperty Name="Quantity" ColumnName="Quantity" />
-                <ScalarProperty Name="ProCode" ColumnName="ProCode" />
-                <ScalarProperty Name="ProName" ColumnName="ProName" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>

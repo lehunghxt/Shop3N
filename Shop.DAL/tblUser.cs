@@ -14,6 +14,12 @@ namespace Shop.DAL
     
     public partial class tblUser
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public tblUser()
+        {
+            this.tblProduct = new HashSet<tblProduct>();
+        }
+    
         public long Id { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }
@@ -24,5 +30,8 @@ namespace Shop.DAL
         public string Email { get; set; }
         public Nullable<int> CreateBy { get; set; }
         public Nullable<System.DateTime> CreateDate { get; set; }
+    
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<tblProduct> tblProduct { get; set; }
     }
 }

@@ -1,6 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
   <EntityContainerMapping StorageEntityContainer="InvoiceDataStoreContainer" CdmEntityContainer="ShopEntities">
+    <EntitySetMapping Name="tblProduct">
+      <EntityTypeMapping TypeName="InvoiceData.tblProduct">
+        <MappingFragment StoreEntitySet="tblProduct">
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="Slug" ColumnName="Slug" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="ProCode" ColumnName="ProCode" />
+          <ScalarProperty Name="ProName" ColumnName="ProName" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
     <EntitySetMapping Name="tblUser">
       <EntityTypeMapping TypeName="InvoiceData.tblUser">
         <MappingFragment StoreEntitySet="tblUser">
@@ -13,20 +28,6 @@
           <ScalarProperty Name="Address" ColumnName="Address" />
           <ScalarProperty Name="Password" ColumnName="Password" />
           <ScalarProperty Name="Username" ColumnName="Username" />
-          <ScalarProperty Name="Id" ColumnName="Id" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
-    <EntitySetMapping Name="tblProduct">
-      <EntityTypeMapping TypeName="InvoiceData.tblProduct">
-        <MappingFragment StoreEntitySet="tblProduct">
-          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
-          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
-          <ScalarProperty Name="Slug" ColumnName="Slug" />
-          <ScalarProperty Name="Price" ColumnName="Price" />
-          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
-          <ScalarProperty Name="ProCode" ColumnName="ProCode" />
-          <ScalarProperty Name="ProName" ColumnName="ProName" />
           <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>

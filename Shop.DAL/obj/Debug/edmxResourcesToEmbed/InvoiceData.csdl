@@ -1,9 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="InvoiceData" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
   <EntityContainer Name="ShopEntities" annotation:LazyLoadingEnabled="true">
-    <EntitySet Name="tblUser" EntityType="InvoiceData.tblUser" />
     <EntitySet Name="tblProduct" EntityType="InvoiceData.tblProduct" />
+    <EntitySet Name="tblUser" EntityType="InvoiceData.tblUser" />
+    <AssociationSet Name="FK_tblProduct_tblUser" Association="InvoiceData.FK_tblProduct_tblUser">
+      <End Role="tblUser" EntitySet="tblUser" />
+      <End Role="tblProduct" EntitySet="tblProduct" />
+    </AssociationSet>
   </EntityContainer>
+  <EntityType Name="tblProduct">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int64" />
+    <Property Name="ProName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="ProCode" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Quantity" Type="Int32" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="Slug" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="CreateDate" Type="DateTime" Precision="0" />
+    <Property Name="CreateBy" Type="Int32" />
+    <NavigationProperty Name="tblUser" Relationship="InvoiceData.FK_tblProduct_tblUser" FromRole="tblProduct" ToRole="tblUser" />
+  </EntityType>
   <EntityType Name="tblUser">
     <Key>
       <PropertyRef Name="Id" />
@@ -18,18 +37,18 @@
     <Property Name="Email" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
     <Property Name="CreateBy" Type="Int32" />
     <Property Name="CreateDate" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="tblProduct" Relationship="InvoiceData.FK_tblProduct_tblUser" FromRole="tblUser" ToRole="tblProduct" />
   </EntityType>
-  <EntityType Name="tblProduct">
-    <Key>
-      <PropertyRef Name="Id" />
-    </Key>
-    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="ProName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
-    <Property Name="ProCode" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
-    <Property Name="Quantity" Type="Int32" />
-    <Property Name="Price" Type="Decimal" Precision="18" Scale="0" />
-    <Property Name="Slug" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
-    <Property Name="CreateDate" Type="DateTime" Precision="0" />
-    <Property Name="CreateBy" Type="Int32" />
-  </EntityType>
+  <Association Name="FK_tblProduct_tblUser">
+    <End Type="InvoiceData.tblUser" Role="tblUser" Multiplicity="0..1" />
+    <End Type="InvoiceData.tblProduct" Role="tblProduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="tblProduct">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
 </Schema>

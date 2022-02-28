@@ -136,31 +136,15 @@ namespace ManagerUse1.Controllers
         {
             try
             {
-                var findUser = _userBLL.GetUserByUserName(user.Username);
-                if (findUser == null) ViewBag.Error = "Tên tài khoản hoặc mật khẩu không đúng.";
-                else if (!BCrypt.Net.BCrypt.Verify(user.Password, findUser.Password)) ViewBag.Error = "Tên tài khoản hoặc mật khẩu không đúng.";
-                else if (findUser.Status == 1) ViewBag.Error = "Tài khoản đã bị khoá.";
-                var identity = new GenericIdentity(findUser.Username);
-                var principal = new UserPrincipal(identity, null);
-                principal.Username = user.Username;
-                principal.Password = user.Password;
-                principal.Address = user.Address;
-                principal.Status = user.Status;
-                principal.UserType = user.UserType;
-                principal.CreateBy = user.CreateBy;
-                principal.CreateDate = user.CreateDate;
-
-                Thread.CurrentPrincipal = principal;
-                HttpContext.User = principal;
-
-                HttpContext.Cache[principal.Username] = principal;
-                FormsAuthentication.SetAuthCookie(user.Username, true);
-                var cookie = FormsAuthentication.GetAuthCookie(user.Username, true);
-                Response.SetCookie(cookie);
+                var check = securityProvider.ValidateUser(user.Username, user.Password, true);
+                if (check == 0)
+                    return Redirect("/Product/Index");
+                else if (check == -2 || check == -1) ViewBag.Warning = "Tài khoản hoặc mật khẩu không đúng !";
+                else if (check == 1) ViewBag.Warning = "Tài khoản đã bị khoá.";
             }
             catch(Exception ex)
             {
-                //ViewBag.Error = ex.Message;
+                ViewBag.Error = ex.Message;
             }
             return View();
         }

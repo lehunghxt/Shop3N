@@ -25,7 +25,7 @@ namespace Shop.DAL
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<tblUser> tblUser { get; set; }
         public virtual DbSet<tblProduct> tblProduct { get; set; }
+        public virtual DbSet<tblUser> tblUser { get; set; }
     }
 }

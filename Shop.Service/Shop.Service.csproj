@@ -120,6 +120,7 @@
     <Compile Include="DrawTable.cs" />
     <Compile Include="Mapping\MappingBase.cs" />
     <Compile Include="Mapping\MappingProfile.cs" />
+    <Compile Include="ProductBLL.cs" />
     <Compile Include="UserBLL.cs" />
     <Compile Include="CGlobal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

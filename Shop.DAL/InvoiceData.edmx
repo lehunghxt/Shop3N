@@ -5,6 +5,19 @@
     <!-- SSDL content -->
     <edmx:StorageModels>
     <Schema Namespace="InvoiceData.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="tblProduct">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ProName" Type="nvarchar" MaxLength="200" />
+          <Property Name="ProCode" Type="nvarchar" MaxLength="200" />
+          <Property Name="Quantity" Type="int" />
+          <Property Name="Price" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="Slug" Type="varchar" MaxLength="200" />
+          <Property Name="CreateDate" Type="date" />
+          <Property Name="CreateBy" Type="int" />
+        </EntityType>
         <EntityType Name="tblUser">
           <Key>
             <PropertyRef Name="Id" />
@@ -13,14 +26,15 @@
           <Property Name="Username" Type="nvarchar" MaxLength="200" />
           <Property Name="Password" Type="nvarchar" MaxLength="200" />
           <Property Name="Address" Type="nvarchar" MaxLength="200" />
-          <Property Name="CreateDate" Type="date" />
-          <Property Name="CreateBy" Type="bigint" />
           <Property Name="Status" Type="int" />
           <Property Name="UserType" Type="int" />
           <Property Name="Roles" Type="nvarchar(max)" />
-          <Property Name="Email" Type="nvarchar" MaxLength="200" Nullable="false" />
+          <Property Name="Email" Type="nvarchar" MaxLength="200" />
+          <Property Name="CreateBy" Type="int" />
+          <Property Name="CreateDate" Type="date" />
         </EntityType>
         <EntityContainer Name="InvoiceDataStoreContainer">
+          <EntitySet Name="tblProduct" EntityType="Self.tblProduct" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="tblUser" EntityType="Self.tblUser" Schema="dbo" store:Type="Tables" />
         </EntityContainer>
       </Schema></edmx:StorageModels>
@@ -29,6 +43,7 @@
       <Schema Namespace="InvoiceData" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
         <EntityContainer Name="ShopEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="tblUser" EntityType="InvoiceData.tblUser" />
+          <EntitySet Name="tblProduct" EntityType="InvoiceData.tblProduct" />
         </EntityContainer>
         <EntityType Name="tblUser">
           <Key>
@@ -38,12 +53,25 @@
           <Property Name="Username" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="Password" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="Address" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
-          <Property Name="CreateDate" Type="DateTime" Precision="0" />
-          <Property Name="CreateBy" Type="Int64" />
           <Property Name="Status" Type="Int32" />
           <Property Name="UserType" Type="Int32" />
           <Property Name="Roles" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="Email" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="CreateBy" Type="Int32" />
+          <Property Name="CreateDate" Type="DateTime" Precision="0" />
+        </EntityType>
+        <EntityType Name="tblProduct">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ProName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="ProCode" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="Quantity" Type="Int32" />
+          <Property Name="Price" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="Slug" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="CreateDate" Type="DateTime" Precision="0" />
+          <Property Name="CreateBy" Type="Int32" />
         </EntityType>
         </Schema>
     </edmx:ConceptualModels>
@@ -54,15 +82,29 @@
           <EntitySetMapping Name="tblUser">
             <EntityTypeMapping TypeName="InvoiceData.tblUser">
               <MappingFragment StoreEntitySet="tblUser">
+                <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+                <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
                 <ScalarProperty Name="Email" ColumnName="Email" />
                 <ScalarProperty Name="Roles" ColumnName="Roles" />
                 <ScalarProperty Name="UserType" ColumnName="UserType" />
                 <ScalarProperty Name="Status" ColumnName="Status" />
-                <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
-                <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
                 <ScalarProperty Name="Address" ColumnName="Address" />
                 <ScalarProperty Name="Password" ColumnName="Password" />
                 <ScalarProperty Name="Username" ColumnName="Username" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblProduct">
+            <EntityTypeMapping TypeName="InvoiceData.tblProduct">
+              <MappingFragment StoreEntitySet="tblProduct">
+                <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+                <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+                <ScalarProperty Name="Slug" ColumnName="Slug" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+                <ScalarProperty Name="ProCode" ColumnName="ProCode" />
+                <ScalarProperty Name="ProName" ColumnName="ProName" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>

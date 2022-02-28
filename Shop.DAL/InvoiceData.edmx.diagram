@@ -4,8 +4,9 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="6841bea405f3498095cf9d27d26d0eca" Name="Diagram1" ZoomLevel="65">
+      <Diagram DiagramId="6841bea405f3498095cf9d27d26d0eca" Name="Diagram1" ZoomLevel="84">
         <EntityTypeShape EntityType="InvoiceData.tblUser" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="InvoiceData.tblProduct" Width="1.5" PointX="3.375" PointY="0.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

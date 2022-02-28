@@ -5,8 +5,12 @@ using Shop.Service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Principal;
+using System.Threading;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Security;
+using Newtonsoft.Json;
 
 namespace ManagerUse1.Controllers
 {
@@ -132,10 +136,27 @@ namespace ManagerUse1.Controllers
         {
             try
             {
-                var check = securityProvider.ValidateUser(user.Username, user.Password, true);
-                //if (check == -3 || check == -2) ViewBag.Error = "Tài khoản hoặc mật khẩu không đúng";
-                //else if (check == 1) ViewBag.Error = "Tài khoản đã bị khóa.";
-                //else if (check == 1) ViewBag.Error = "Tài khoản đã bị khóa.";
+                var findUser = _userBLL.GetUserByUserName(user.Username);
+                if (findUser == null) ViewBag.Error = "Tên tài khoản hoặc mật khẩu không đúng.";
+                else if (!BCrypt.Net.BCrypt.Verify(user.Password, findUser.Password)) ViewBag.Error = "Tên tài khoản hoặc mật khẩu không đúng.";
+                else if (findUser.Status == 1) ViewBag.Error = "Tài khoản đã bị khoá.";
+                var identity = new GenericIdentity(findUser.Username);
+                var principal = new UserPrincipal(identity, null);
+                principal.Username = user.Username;
+                principal.Password = user.Password;
+                principal.Address = user.Address;
+                principal.Status = user.Status;
+                principal.UserType = user.UserType;
+                principal.CreateBy = user.CreateBy;
+                principal.CreateDate = user.CreateDate;
+
+                Thread.CurrentPrincipal = principal;
+                HttpContext.User = principal;
+
+                HttpContext.Cache[principal.Username] = principal;
+                FormsAuthentication.SetAuthCookie(user.Username, true);
+                var cookie = FormsAuthentication.GetAuthCookie(user.Username, true);
+                Response.SetCookie(cookie);
             }
             catch(Exception ex)
             {

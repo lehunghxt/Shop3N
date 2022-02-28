@@ -38,3 +38,17 @@ D:\testCshape\ManagerUse1\Shop.DAL\obj\Debug\Shop.DAL.csproj.CoreCompileInputs.c
 D:\testCshape\ManagerUse1\Shop.DAL\obj\Debug\Shop.DAL.csproj.CopyComplete
 D:\testCshape\ManagerUse1\Shop.DAL\obj\Debug\Shop.DAL.dll
 D:\testCshape\ManagerUse1\Shop.DAL\obj\Debug\Shop.DAL.pdb
+H:\TestC#\Shop3N\Shop.DAL\bin\Debug\Shop.DAL.dll.config
+H:\TestC#\Shop3N\Shop.DAL\bin\Debug\Shop.DAL.dll
+H:\TestC#\Shop3N\Shop.DAL\bin\Debug\Shop.DAL.pdb
+H:\TestC#\Shop3N\Shop.DAL\bin\Debug\EntityFramework.dll
+H:\TestC#\Shop3N\Shop.DAL\bin\Debug\EntityFramework.SqlServer.dll
+H:\TestC#\Shop3N\Shop.DAL\bin\Debug\log4net.dll
+H:\TestC#\Shop3N\Shop.DAL\bin\Debug\EntityFramework.xml
+H:\TestC#\Shop3N\Shop.DAL\bin\Debug\EntityFramework.SqlServer.xml
+H:\TestC#\Shop3N\Shop.DAL\bin\Debug\log4net.xml
+H:\TestC#\Shop3N\Shop.DAL\obj\Debug\Shop.DAL.csproj.AssemblyReference.cache
+H:\TestC#\Shop3N\Shop.DAL\obj\Debug\Shop.DAL.csproj.CoreCompileInputs.cache
+H:\TestC#\Shop3N\Shop.DAL\obj\Debug\Shop.DAL.csproj.CopyComplete
+H:\TestC#\Shop3N\Shop.DAL\obj\Debug\Shop.DAL.dll
+H:\TestC#\Shop3N\Shop.DAL\obj\Debug\Shop.DAL.pdb

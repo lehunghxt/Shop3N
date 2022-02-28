@@ -148,3 +148,14 @@ D:\testCshape\ManagerUse1\Library\obj\Debug\Library.csproj.CopyComplete
 D:\testCshape\ManagerUse1\Library\obj\Debug\Library.dll
 D:\testCshape\ManagerUse1\Library\obj\Debug\Library.pdb
 D:\testCshape\ManagerUse1\Library\obj\Debug\Library.csproj.AssemblyReference.cache
+H:\TestC#\Shop3N\Library\bin\Debug\Library.dll
+H:\TestC#\Shop3N\Library\bin\Debug\Library.pdb
+H:\TestC#\Shop3N\Library\bin\Debug\log4net.dll
+H:\TestC#\Shop3N\Library\bin\Debug\Newtonsoft.Json.dll
+H:\TestC#\Shop3N\Library\bin\Debug\log4net.xml
+H:\TestC#\Shop3N\Library\bin\Debug\Newtonsoft.Json.xml
+H:\TestC#\Shop3N\Library\obj\Debug\Library.csproj.AssemblyReference.cache
+H:\TestC#\Shop3N\Library\obj\Debug\Library.csproj.CoreCompileInputs.cache
+H:\TestC#\Shop3N\Library\obj\Debug\Library.csproj.CopyComplete
+H:\TestC#\Shop3N\Library\obj\Debug\Library.dll
+H:\TestC#\Shop3N\Library\obj\Debug\Library.pdb

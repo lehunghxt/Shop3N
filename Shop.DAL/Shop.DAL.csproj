@@ -126,6 +126,12 @@
     </Compile>
     <Compile Include="SQLHelper\SQLHelper.cs" />
     <Compile Include="SQLHelper\SQLSupport.cs" />
+    <Compile Include="tblProduct.cs">
+      <DependentUpon>InvoiceData.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblProductDAL.genarated.cs">
+      <DependentUpon>DAL.tt</DependentUpon>
+    </Compile>
     <Compile Include="tblUser.cs">
       <DependentUpon>InvoiceData.tt</DependentUpon>
     </Compile>

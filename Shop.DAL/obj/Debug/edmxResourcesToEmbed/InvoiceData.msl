@@ -4,15 +4,29 @@
     <EntitySetMapping Name="tblUser">
       <EntityTypeMapping TypeName="InvoiceData.tblUser">
         <MappingFragment StoreEntitySet="tblUser">
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
           <ScalarProperty Name="Email" ColumnName="Email" />
           <ScalarProperty Name="Roles" ColumnName="Roles" />
           <ScalarProperty Name="UserType" ColumnName="UserType" />
           <ScalarProperty Name="Status" ColumnName="Status" />
-          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
-          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
           <ScalarProperty Name="Address" ColumnName="Address" />
           <ScalarProperty Name="Password" ColumnName="Password" />
           <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProduct">
+      <EntityTypeMapping TypeName="InvoiceData.tblProduct">
+        <MappingFragment StoreEntitySet="tblProduct">
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="Slug" ColumnName="Slug" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="ProCode" ColumnName="ProCode" />
+          <ScalarProperty Name="ProName" ColumnName="ProName" />
           <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>

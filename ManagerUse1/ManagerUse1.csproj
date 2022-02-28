@@ -165,6 +165,7 @@
     <Compile Include="Controllers\AuthController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="EHDHub.cs" />
     <Compile Include="Enums\EnumUserStatus.cs" />
     <Compile Include="Enums\EnumUserType.cs" />
@@ -218,6 +219,8 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Auth\Register.cshtml" />
     <Content Include="Views\Auth\Login.cshtml" />
+    <Content Include="Views\Product\Index.cshtml" />
+    <Content Include="Views\Product\Add.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

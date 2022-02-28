@@ -30,3 +30,12 @@ H:\TestC#\Shop3N\Shop.Domain\obj\Debug\Shop.Domain.csproj.CoreCompileInputs.cach
 H:\TestC#\Shop3N\Shop.Domain\obj\Debug\Shop.Domain.csproj.CopyComplete
 H:\TestC#\Shop3N\Shop.Domain\obj\Debug\Einvoince.Domain.dll
 H:\TestC#\Shop3N\Shop.Domain\obj\Debug\Einvoince.Domain.pdb
+D:\testCshape\Shop3N\Shop.Domain\bin\Debug\Einvoince.Domain.dll
+D:\testCshape\Shop3N\Shop.Domain\bin\Debug\Einvoince.Domain.pdb
+D:\testCshape\Shop3N\Shop.Domain\bin\Debug\Newtonsoft.Json.dll
+D:\testCshape\Shop3N\Shop.Domain\bin\Debug\Newtonsoft.Json.xml
+D:\testCshape\Shop3N\Shop.Domain\obj\Debug\Shop.Domain.csproj.AssemblyReference.cache
+D:\testCshape\Shop3N\Shop.Domain\obj\Debug\Shop.Domain.csproj.CoreCompileInputs.cache
+D:\testCshape\Shop3N\Shop.Domain\obj\Debug\Shop.Domain.csproj.CopyComplete
+D:\testCshape\Shop3N\Shop.Domain\obj\Debug\Einvoince.Domain.dll
+D:\testCshape\Shop3N\Shop.Domain\obj\Debug\Einvoince.Domain.pdb

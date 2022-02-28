@@ -44,22 +44,14 @@ namespace ManagerUse1.Controllers
             }
             return View();
         }
-        [HttpGet]
-        public ActionResult Edit(int Id)
+        // GET: Auth/Edit/5
+        public ActionResult Edit(int id)
         {
-            try
-            {
-                var product = _productBLL.GetProductById(Id);
-                return View(product);
-            }
-            catch (Exception ex)
-            {
-
-            }
-            return View();
+            var product = _productBLL.GetProductById(id);
+            return View(product);
         }
         [HttpPost]
-        public ActionResult Edit(ProductModel product)
+        public ActionResult Edit(int id, ProductModel product)
         {
             try
             {
@@ -69,9 +61,35 @@ namespace ManagerUse1.Controllers
             }
             catch (Exception ex)
             {
-
+                return View();
             }
-            return View();
         }
+        [HttpGet]
+        public ActionResult Details(int id)
+        {
+            var product = _productBLL.GetProductById(id);
+            return View(product);
+        }
+        [HttpGet]
+        public ActionResult Delete(int id)
+        {
+            var product = _productBLL.GetProductById(id);
+            return View(product);
+        }
+        [HttpPost]
+        public ActionResult Delete(int id, ProductModel product)
+        {
+            try
+            {
+                _productBLL.DeleteProduct(id);
+                return RedirectToAction("Index");
+            }
+            catch (Exception ex)
+            {
+                log.Error(ex.Message);
+                return View();
+            }
+        }
+
     }
 }

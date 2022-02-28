@@ -3,7 +3,7 @@
   <EntityContainer Name="ShopEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="tblProduct" EntityType="InvoiceData.tblProduct" />
     <EntitySet Name="tblUser" EntityType="InvoiceData.tblUser" />
-    <AssociationSet Name="FK_tblProduct_tblUser" Association="InvoiceData.FK_tblProduct_tblUser">
+    <AssociationSet Name="FK_Products_Users" Association="InvoiceData.FK_Products_Users">
       <End Role="tblUser" EntitySet="tblUser" />
       <End Role="tblProduct" EntitySet="tblProduct" />
     </AssociationSet>
@@ -16,12 +16,12 @@
     <Property Name="UserId" Type="Int64" />
     <Property Name="ProName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
     <Property Name="ProCode" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
-    <Property Name="Quantity" Type="Int32" />
+    <Property Name="ProSlug" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
     <Property Name="Price" Type="Decimal" Precision="18" Scale="0" />
-    <Property Name="Slug" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Quantity" Type="Double" />
     <Property Name="CreateDate" Type="DateTime" Precision="0" />
-    <Property Name="CreateBy" Type="Int32" />
-    <NavigationProperty Name="tblUser" Relationship="InvoiceData.FK_tblProduct_tblUser" FromRole="tblProduct" ToRole="tblUser" />
+    <Property Name="CreateBy" Type="Int64" />
+    <NavigationProperty Name="tblUser" Relationship="InvoiceData.FK_Products_Users" FromRole="tblProduct" ToRole="tblUser" />
   </EntityType>
   <EntityType Name="tblUser">
     <Key>
@@ -31,15 +31,15 @@
     <Property Name="Username" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
     <Property Name="Password" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
     <Property Name="Address" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="CreateDate" Type="DateTime" Precision="0" />
+    <Property Name="CreateBy" Type="Int64" />
     <Property Name="Status" Type="Int32" />
     <Property Name="UserType" Type="Int32" />
     <Property Name="Roles" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-    <Property Name="Email" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
-    <Property Name="CreateBy" Type="Int32" />
-    <Property Name="CreateDate" Type="DateTime" Precision="0" />
-    <NavigationProperty Name="tblProduct" Relationship="InvoiceData.FK_tblProduct_tblUser" FromRole="tblUser" ToRole="tblProduct" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tblProduct" Relationship="InvoiceData.FK_Products_Users" FromRole="tblUser" ToRole="tblProduct" />
   </EntityType>
-  <Association Name="FK_tblProduct_tblUser">
+  <Association Name="FK_Products_Users">
     <End Type="InvoiceData.tblUser" Role="tblUser" Multiplicity="0..1" />
     <End Type="InvoiceData.tblProduct" Role="tblProduct" Multiplicity="*" />
     <ReferentialConstraint>

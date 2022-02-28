@@ -38,5 +38,35 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+
+    <script src="~/Scripts/jquery.signalR-2.4.3.min.js"></script>
+    <script src="~/Scripts/hub.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var logger = $.connection.eHDHub;
+            logger.client.logMessage = function (msg) {
+                console.log(msg);
+                var curent = $("#cucusId").val().split("|");
+                var msgs = msg.split("|");
+                if (msgs[2] == "Login") {
+                    if (curent[0] == msgs[0]) {
+                        if (curent[1] != msgs[1]) {
+                            alert('Bạn đã đăng nhập bằng một tài khoản khác');
+                            document.location.href = "\\";
+                        }
+                    }
+                    else {
+                        if (curent[1] == msgs[1]) {
+                            alert('Tài khoản này đã đăng nhập ở một nơi khác');
+                            document.location.href = "/logout.aspx";
+                        }
+                    }
+                }
+            };
+            $.connection.hub.start();
+
+        });
+
+    </script>
 </body>
 </html>
